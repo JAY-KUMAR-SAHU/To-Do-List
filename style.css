@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(17, 36, 43);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin-top: 80px;
+  width: 50%;
+  border: 3px solid yellow;
+  border-radius: 10px;
+  height: 400px;
+  position: relative;
+}
+.container .title {
+  margin: 5px;
+  text-align: center;
+}
+.container .title h3 span {
+  padding: 5px;
+  border-bottom: 2px solid white;
+}
+
+/* Design List */
+.container .list {
+  height: 250px;
+  width: 100%;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+}
+.container .list ul {
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid teal;
+  border-radius: 5px;
+  list-style: none;
+  overflow-y: auto;
+}
+
+.container .list ul li {
+  width: 100%;
+  display: flex;
+  background-color: #d35ce2;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  padding: 0px 10px;
+  align-items: center;
+  position: relative;
+}
+
+.container .list ul .change {
+  background-color: teal;
+}
+.container .list ul .change span {
+  background-color: black;
+}
+.container .list ul .change i {
+  color: black;
+}
+
+.container .list ul li p {
+  font-size: 20px;
+  height: 100%;
+  width: 70%;
+  margin-left: 20px;
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+.container .list ul li span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+.container .list ul li i {
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+}
+
+.container .input {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+.container .input input {
+  width: 70%;
+  outline: none;
+  border: none;
+  padding: 0px 10px;
+  text-align: center;
+  background-color: teal;
+  color: white;
+}
+.container .input input::placeholder{
+  color: white;
+}
+
+.input {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: transparent;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #fff000;
+}
